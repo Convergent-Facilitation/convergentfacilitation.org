@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Convergent Facilitation',
-  tagline: 'Finding a solution that work for everyone',
+  tagline: 'Finding a solution that works for everyone',
   favicon: 'img/convergentfacilitation_logo.png',
 
 
@@ -138,15 +138,15 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Process and Impact',
+            title: 'CF in the World',
             items: [
               {
                 label: 'What is CF',
-                to: '/engage/what-can-you-do'
+                to: '/what-is-cf'
               },
               {
                 label: 'Case Studies',
-                to: '/engage/apply-and-apprentice/join-hylo'
+                to: '/case-studies'
               },
               {
                 label: 'Book: Highest Common Denominator',
@@ -163,7 +163,7 @@ const config = {
             items: [
               {
                 label: 'Get Support',
-                to: '/services'
+                to: '/get-support'
               },
               {
                 label: 'Mission',
@@ -191,15 +191,14 @@ const config = {
                 to: '/contact'
               },
               {
-                label: 'Blog',
-                to: 'blog'
-              },
-              {
                 label: 'Newsletter',
-                to: '/contact#stay-in-the-loop'
+                to: '/contact#stay-informed-with-our-cf-in-the-world-newsletter'
               },
               { label: 'NGL Community',
                 href: 'https://nglcommunity.org'
+              },
+              { label: 'Github',
+                href: 'https://github.com/Convergent-Facilitation/convergentfacilitation.org'
               },
 
             ]

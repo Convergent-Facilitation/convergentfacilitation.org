@@ -49,8 +49,8 @@ function HeroBanner () {
           <InlineIcon icon="entypo:documents"/>
             <Translate> Read our Case Studies</Translate>
           </Link>
-          <Link className="button button--secondary button-outline" to="/services">
-          <InlineIcon icon="maki:post"/>
+          <Link className="button button--secondary button-outline" to="/contact#stay-informed-with-our-cf-in-the-world-newsletter">
+          <InlineIcon icon="solar:letter-linear"/>
             <Translate> Stay informed</Translate>
           </Link>
 
