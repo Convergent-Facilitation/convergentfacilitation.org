@@ -7,7 +7,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import useBaseUrl, { useBaseUrlUtils } from '@docusaurus/useBaseUrl'
 
 import Features, { type FeatureItem } from '@site/src/data/features'
-import Quotes from '@site/src/data/quotes'
+import Appreciations from '@site/src/data/appreciations'
+import Nanos from '@site/src/data/nano-case-studies'
 
 // import styles from './index.module.css';
 import styles from './styles.module.css'
@@ -60,14 +61,14 @@ function HeroBanner () {
   )
 }
 
-function QuotesSection () {
+function QuotesSection({ quotes })  {
   return (
       <div className="container text--center">
       <Heading as="h1" >
             <Translate>What people say about Convergent Facilitation</Translate>
       </Heading>
         <div className="row">
-          {Quotes.map((quote) => (
+          {quotes.map((quote) => (
             <div className="col" key={quote.name}>
               <div className="avatar avatar--vertical margin-bottom--sm">
                 <Image
@@ -179,7 +180,7 @@ export default function HoVideoContaineVideoContainer (): JSX.Element {
             <FeaturesContainer />
         </div>
           <div className={styles.section}>
-            <QuotesSection />
+            <QuotesSection quotes={Appreciations} />
         </div>
           <div className={styles.section}>
             <VideoContainer />

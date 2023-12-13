@@ -12,7 +12,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 
 const QUOTES = [
   {
-    thumbnail: require('./quotes/frederic-laloux.jpg'),
+    thumbnail: require('./appreciations/frederic-laloux.jpg'),
     name: 'Frederic Laloux',
     title: translate({
       id: 'homepage.quotes.christopher-chedeau.title',
@@ -28,7 +28,7 @@ const QUOTES = [
     ),
   },
   {
-    thumbnail: require('./quotes/joanna-macy.jpg'),
+    thumbnail: require('./appreciations/joanna-macy.jpg'),
     name: 'Joanna Macy',
     title: translate({
       id: 'homepage.quotes.hector-ramos.title',
@@ -38,13 +38,13 @@ const QUOTES = [
     text: (
       <Translate
         id="homepage.quotes.hector-ramos"
-        description="Quote of Hector Ramos on the home page">
+        description="Quote of Joanna Macy on the home page">
        Convergent Facilitation will steer us away from wasting time and accelerate our work for the Great Turning.
       </Translate>
     ),
   },
   {
-    thumbnail: require('./quotes/aaron-goggans.jpg'),
+    thumbnail: require('./appreciations/aaron-goggans.jpg'),
     name: 'Aaron Goggans',
     title: translate({
       id: 'homepage.quotes.risky-vetter.title',
@@ -53,19 +53,19 @@ const QUOTES = [
     }),
     text: (
       <Translate
-        id="homepage.quotes.risky-vetter"
-        description="Quote of Ricky Vetter on the home page">
+        id="homepage.appreciations.risky-vetter"
+        description="Quote of Aaron Goggans on the home page">
 Convergent Facilitation is a revolutionary new way of collaborating by creating space for all needs to be heard, inviting dissent without fear or animosity, and attending to power dynamics that are in the room.
       </Translate>
     ),
   },
   {
-    thumbnail: require('./quotes/kazu-haga.jpg'),
+    thumbnail: require('./appreciations/kazu-haga.jpg'),
     name: 'Kazu Haga',
     title: translate({
       id: 'homepage.quotes.risky-vetter.title',
       message: 'Writer, facilitator, and organizer with the Movement for Black Lives',
-      description: 'Title of quote of Ricky Vetter on the home page',
+      description: 'Title of quote of Kazu Haga on the home page',
     }),
     text: (
       <Translate
