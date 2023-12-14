@@ -65,7 +65,7 @@ function QuotesSection({ quotes })  {
   return (
       <div className="container text--center">
       <Heading as="h1" >
-		How people experienced Convergent Facilitation
+		How people experience Convergent Facilitation
       </Heading>
         <div className="row">
           {quotes.map((quote) => (
@@ -118,7 +118,7 @@ function FeaturesContainer () {
   return (
     <div className="container text--center">
       <Heading as="h1">
-        <Translate>What makes Convergent Facilitation powerful</Translate>
+        <Translate>What makes these Experiences possible?</Translate>
       </Heading>
       <div className="row margin-bottom--lg">
         {firstRow.map((feature, idx) => (
@@ -175,6 +175,7 @@ export default function HoVideoContaineVideoContainer (): JSX.Element {
       <main>
         <HeroBanner />
           <div className={styles.section}>
+
           <div className={styles.section}>
             <QuotesSection quotes={Quotes} />
         </div>

@@ -27,85 +27,37 @@ export type FeatureItem = {
 const FEATURES: FeatureItem[] = [
 
   {
-    title: translate({
-      message: 'Welcome Dissent',
-      id: 'homepage.features.ready-for-translations.title',
-    }),
-    image: {
-      src: '/img/website-feature-welcome-dissent-blue.png',
-      width: 1137,
-      height: 776.59,
-    },
-    text: (
-      <Translate id="homepage.features.ready-for-translations.text">
-        How often in our daily lives do we manage to talk about things 
-        that matter a lot and not end up in an argument? In a Convergent Facilitation process, 
-        we have rich and complex conversations and we stay together.</Translate>
-    ),
+    title: 'Everything that matters is included',
+    image: { src: '/img/website-feature-welcome-dissent-blue.png'},
+    text: "We leave no stone unturned to discover and capture what's important to all stakeholders in the decision. This creates a solid foundation to explore all sorts of creative solutions and come to a decision that no one thought was possible at the start of the process."
   },
   {
-    title: translate({
-      message: 'Resolve the Crisis of Imagination',
-      id: 'homepage.features.document-versioning.title',
-    }),
+    title: 'Aiming for zero waste',
     image: {
       src: '/img/website-feature-resolve-crisis-of-imagination-green.png',
-      width: 1038.23,
-      height: 693.31,
     },
-    text: (
-      <Translate id="homepage.features.document-versioning.text">
-        How often do we experience hope that another world is indeed possible? Convergent Facilitation reconnects us with our innate and time immemorial capacity to resolve complex problems in partnership with life.
-      </Translate>
-    ),
+    text: 'We hear every need but not every voice, and have all and only the necessary discussions—hearing every need, but not every voice. This enables us to capture all that is important to everyone without draining the group’s energy, and creates conditions for innovation to flow.'
   },
   {
-    title: translate({
-      message: 'Regain faith in humanity',
-      id: 'homepage.features.content-search.title',
-    }),
+    title: 'Never settling for compromise',
     image: {
       src: '/img/website-feature-regain-faith-red.png',
-      width: 1137.97,
-      height: 736.21,
     },
-    text: (
-      <Translate id="homepage.features.content-search.text">
-        We meet for several meetings, engage in deep conversation, laugh and listen to each other intently, hold difficult dilemmas together and sometimes even tie bounds of friendship with people we never knew we could have a conversation with.
-      </Translate>
-    ),
+    text: 'We look deep enough to find pathways for integration rather than compromise. We see compromise as stretching everyone beyond true willingness and often resulting in half-baked or unsustainable solutions. Instead, wWe invite and integrate dissent because we know it will create a more  robust outcome without pushing anyone for agreement.',
   },
   {
-    title: translate({
-      message: 'Attend to Power Differences',
-      id: 'homepage.features.powered-by-mdx.title',
-    }),
+    title: 'Solutions that work for the most powerful and least powerful', 
     image: {
       src: '/img/website-feature-power-differences-purple.png',
-      width: 1009.54,
-      height: 717.96,
     },
-    text: (
-      <Translate id="homepage.features.powered-by-mdx.text">
-        Convergent Facilitation is rigourous, can take time and asks for significant commitment on the part of participants and facilitators. When we land on a solution that works for everyone however, there can be immense satisfaction to have resolved a complex puzzle together.
-      </Translate>
-    ),
+    text: 'We go through great efforts to bring in, hear and integrate all that matters to all stakeholders across power differences. We know that this is a key condition for a practical, sustainable and implementable outcome.',
   },
   {
-    title: translate({
-      message: "Build Confidence",
-      id: 'homepage.features.built-using-react.title',
-    }),
+    title: 'Conditions that make shifts possible', 
     image: {
       src: '/img/website-feature-build-confidence.png',
-      width: 1108,
-      height: 731.18,
     },
-    text: (
-      <Translate id="homepage.features.built-using-react.text">
-        When we experience that our contribution is important regardless where we are placed on the “map of power”, we regain confidence in our ability to influence decisions that impact us, and in humanity’s capacity to manage its affairs for the benefits of the whole.
-      </Translate>
-    ),
+    text: "When people trust that their needs matter, they can more easily hear other people's needs without a sense of pressure to agree. They also find in themselves the willingness to adopt solutions that they recognise will work for everyone even if it’s not their preference."
   },
 ];
 
