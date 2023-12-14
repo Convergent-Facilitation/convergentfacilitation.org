@@ -8,7 +8,7 @@ import useBaseUrl, { useBaseUrlUtils } from '@docusaurus/useBaseUrl'
 
 import Features, { type FeatureItem } from '@site/src/data/features'
 import Appreciations from '@site/src/data/appreciations'
-import Nanos from '@site/src/data/nano-case-studies'
+import Quotes from '@site/src/data/quotes'
 
 // import styles from './index.module.css';
 import styles from './styles.module.css'
@@ -65,7 +65,7 @@ function QuotesSection({ quotes })  {
   return (
       <div className="container text--center">
       <Heading as="h1" >
-            <Translate>What people say about Convergent Facilitation</Translate>
+		How people experienced Convergent Facilitation
       </Heading>
         <div className="row">
           {quotes.map((quote) => (
@@ -175,6 +175,9 @@ export default function HoVideoContaineVideoContainer (): JSX.Element {
       <main>
         <HeroBanner />
           <div className={styles.section}>
+          <div className={styles.section}>
+            <QuotesSection quotes={Quotes} />
+        </div>
 
           <div className={styles.section}>
             <FeaturesContainer />
