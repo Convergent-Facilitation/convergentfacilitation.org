@@ -29,13 +29,13 @@ const QUOTES = [
       message: '',
       description: '',
     }),
-    text: 'The state agencies that initiated the process sent representatives who took part in all our meetings. It was a game changer to have them committed so thoroughly. It made it real for all stakeholders. I bet each person thought, “I am going to invest my time in this, this is going to make an impact”.'
+    text: 'At some point, we hit a really tough ‘content-based’ challenge. It became clear that it was ‘THE’ issue. If we didn’t crack it, we wouldn’t reach consensus on the overall project. The field didn’t need another paper on so and so’s opinion about various solutions. We were here to figure out a frame that held them all, and we eventually succeeded. '
   },
   {
     thumbnail: require('./quotes/vanda.png'),
     name: '',
     title: '',
-    text: 'Believe it or not, as soon as we started meeting, we had fun. Parents, staff and board members didn’t experience the decision process as a debate - no one tried to convince anyone else - and our discussions didn’t feel interminable endless. The main shift happened when we discovered we could integrate two pathways we thought as opposite initially. We could merge them into a parallel and complementary model that works beautifully.'
+    text: 'As soon as we started meeting, we had fun. Parents, staff and board members didn’t experience the decision process as a debate - no one tried to convince anyone else - and our discussions didn’t feel endless. The main shift happened when we discovered we could integrate two pathways we initially thought of as opposite. We could merge them into a parallel and complementary model that works beautifully.'
   },
   {
     thumbnail: require('./quotes/katy-mamen.png'),
