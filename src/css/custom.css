@@ -33,6 +33,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.button {
+  margin: 10px
+}
+
 body {
   background-color: #fdfaf6
 }
@@ -52,7 +56,7 @@ h2 {
   position: center;
   overflow: hidden;
   width: 100%;
-  max-width: 560px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -89,4 +93,10 @@ div[class^='announcementBar_'] {
     var(--site-announcement-bar-stripe-color2) 50px
   );
   font-weight: bold;
+}
+
+.round-image {
+  border-radius: 50%;
+  width: 150;
+  height: 150;
 }
