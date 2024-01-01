@@ -42,14 +42,20 @@ const config = {
           //editUrl:
            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
        // },
-		blog: false,
-       //blog: {
-        //  showReadingTime: true,
+	//	blog: false,
+       blog: {
+        path: 'case-studies',
+        routeBasePath: '/case-studies',
+        blogSidebarTitle: 'All Case Studies',
+        blogTitle: 'Convergent Facilitation Case Studies',
+        blogDescription: 'Convergent Facilitation Case Studies',
+        authorsMapPath: '../facilitators.yml',
+        showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
          // editUrl:
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        //},
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
