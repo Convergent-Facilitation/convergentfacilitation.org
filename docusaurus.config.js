@@ -200,6 +200,14 @@ const config = {
               { label: 'Github',
                 href: 'https://github.com/Convergent-Facilitation/convergentfacilitation.org'
               },
+              {
+                label: 'Privacy',
+                to: '/privacy'
+              },
+              {
+                label: 'Terms',
+                to: '/terms'
+              },
 
             ]
           },
