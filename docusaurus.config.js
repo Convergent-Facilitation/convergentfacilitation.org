@@ -50,7 +50,7 @@ const config = {
         blogTitle: 'Convergent Facilitation Case Studies',
         blogDescription: 'Convergent Facilitation Case Studies',
         authorsMapPath: '../facilitators.yml',
-        showReadingTime: true,
+        showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
          // editUrl:
