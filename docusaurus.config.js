@@ -80,23 +80,24 @@ const config = {
       //    { label: 'What is CF', to: 'about', position: 'left' },
 	  { label: 'Overview', href: '/', position: 'left' },
 	  //{ label: 'Get Support', to: '/get-support', position: 'left' },
-          {
-            type: 'dropdown',
-            label: 'Case Studies',
-            position: 'left',
-            items: [
-              {
-				  label: 'Preschool Governance (amares)',
-                to: '/case-studies/amares-preschool-governance-structure'
-              },
-              {
-                label: 'Child Custody (Minnesota State Legislature) (PDF)',
-                href: '/files/child-custory-minnesota-cf-case-study.pdf',
-				target: '_blank'
-
-              },
-            ]
-          },
+	  { label: 'Case Studies', to: '/case-studies', position: 'left' },
+//          {
+//            type: 'dropdown',
+//            label: 'Case Studies',
+//            position: 'left',
+//            items: [
+//              {
+//				  label: 'Preschool Governance (amares)',
+//                to: '/case-studies/amares-preschool-governance-structure'
+//              },
+//              {
+//                label: 'Child Custody (Minnesota State Legislature) (PDF)',
+//                href: '/files/child-custory-minnesota-cf-case-study.pdf',
+//				target: '_blank'
+//
+//              },
+//            ]
+//          },
 	//	  { label: 'Mission', to: '/mission', position: 'left' },
           {
             type: 'dropdown',
