@@ -6,7 +6,7 @@ import clsx from 'clsx';
 
 
 
-const FORM_ENDPOINT = "https://public.herotofu.com/v1/8395ef00-1fbf-11ee-b0a7-9f000c4c1540"; // TODO - update to the correct endpoint
+const FORM_ENDPOINT = "https://public.herotofu.com/v1/aa77ba80-aa21-11ee-870a-ff8e0d81300a"; 
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -46,8 +46,8 @@ const ContactForm = () => {
   if (submitted) {
     return (
       <>
-        <div className="text-2xl">Thank you!</div>
-        <div className="text-md">We intent to get back to you within three days.</div>
+        <div className="text-2xl"><b>Thank you for your message!</b></div>
+        <div className="text-md"><b>We intent to get back to you within three days.</b></div>
       </>
     );
   }
