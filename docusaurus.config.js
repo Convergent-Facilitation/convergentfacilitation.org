@@ -42,7 +42,6 @@ const config = {
           //editUrl:
            // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
        // },
-	//	blog: false,
        blog: {
         path: 'case-studies',
         routeBasePath: '/case-studies',
@@ -53,8 +52,7 @@ const config = {
         showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-         // editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:  'https://github.com/Convergent-Facilitation/convergentfacilitation.org/tree/main',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -87,53 +85,27 @@ const config = {
 	  { label: 'Overview', href: '/', position: 'left' },
 	  //{ label: 'Get Support', to: '/get-support', position: 'left' },
 	  { label: 'Case Studies', to: '/case-studies', position: 'left' },
-//          {
-//            type: 'dropdown',
-//            label: 'Case Studies',
-//            position: 'left',
-//            items: [
-//              {
-//				  label: 'Preschool Governance (amares)',
-//                to: '/case-studies/amares-preschool-governance-structure'
-//              },
-//              {
-//                label: 'Child Custody (Minnesota State Legislature) (PDF)',
-//                href: '/files/child-custory-minnesota-cf-case-study.pdf',
-//				target: '_blank'
-//
-//              },
-//            ]
-//          },
-	//	  { label: 'Mission', to: '/mission', position: 'left' },
           {
             type: 'dropdown',
             label: 'Learn more',
             position: 'left',
             items: [
               {
-				  label: 'CF Introductory Course Mar 2024',
+				  label: 'Introductory Course Mar 2024',
                 to: '/intro-course-paul-verene-march-2024'
               },
               {
+				  label: 'Advanced Training (grow.CF.org)',
+                href: 'https://grow.convergentfacilitation.org'
+              },
+              {
 				  label: 'Book: Highest Common Denominator',
-                to: 'https://thefearlessheart.org/store/the-highest-common-denominator/'
+                href: 'https://thefearlessheart.org/store/the-highest-common-denominator/'
               },
               {
-                label: 'CF Handout',
-                to: 'https://thefearlessheart.org/item/organizational-collaboration-primer-packet/'
+                label: 'Primer (Handout)',
+                href: 'https://thefearlessheart.org/item/organizational-collaboration-primer-packet/'
               },
-             // {
-              //  label: 'Intro Courses',
-               // to: 'cf-intro-courses'
-             // },
-              {
-                label: 'Learning Community (Grow CF)',
-                to: 'https://grow.convergentfacilitation.org'
-              },
-              {
-                label: 'Newsletter',
-                to: 'contact#stay-in-the-loop'
-              }
             ]
           },
        //   {
@@ -144,17 +116,16 @@ const config = {
           { label: 'Contact', to: 'contact', position: 'right' }
 
         ]
-      },
-      footer: {
-        style: 'dark',
+      }, footer: {
+		  style: 'dark',
         links: [
           {
-            title: 'CF in the World',
+            title: 'Resources',
             items: [
-              {
-                label: 'What is CF',
-                to: '/what-is-cf'
-              },
+//              {
+//                label: 'What is CF',
+//                to: '/what-is-cf'
+//              },
               {
                 label: 'Case Studies',
                 to: '/case-studies'
@@ -172,24 +143,28 @@ const config = {
           {
             title: 'Engage',
             items: [
+//              {
+//                label: 'Get Support',
+//                to: '/get-support'
+//              },
+//              {
+//                label: 'Mission',
+//                to: '/mission'
+//              },
               {
-                label: 'Get Support',
-                to: '/get-support'
-              },
-              {
-                label: 'Mission',
-                to: '/mission'
+                label: 'Newsletter',
+                to: '/contact#stay-informed-with-our-cf-in-the-world-newsletter'
               },
               {
                 label: 'Support Our Work',
                 to: '/give'
               },
               {
-                label: 'Introductory courses',
-				to: '/cf-intro-courses'
+                label: 'CF Intro Course Mar 2024',
+				to: '/intro-course-paul-verene-march-2024'
               },
               {
-                label: 'Grow CF Capacity in Community',
+                label: 'CF Learning Community (grow)',
                 href: 'https://grow.convergentfacilitation.org'
               },
             ]
@@ -200,10 +175,6 @@ const config = {
               {
                 label: 'Contact',
                 to: '/contact'
-              },
-              {
-                label: 'Newsletter',
-                to: '/contact#stay-informed-with-our-cf-in-the-world-newsletter'
               },
               { label: 'NGL Community',
                 href: 'https://nglcommunity.org'
