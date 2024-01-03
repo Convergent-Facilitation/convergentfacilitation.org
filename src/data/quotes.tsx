@@ -33,7 +33,7 @@ const QUOTES = [
     thumbnail: require('./quotes/katy-mamen.png'),
     name: 'Katy Mamen',
     title: '',
-    text: 'I came up against a lot of intense power struggles when I was an activist. Instead, what I witnessed in this process was completely different: people representing different parts of the system accepted to come and stayed together across real differences, went to the heart of thorny issues, and came out at the other end with realistic, durable and robust strategies.'
+    text: "I came up against a lot of intense power struggles when I worked as an advocate. Instead, what I witnessed in this process was completely different: people representing different parts of the system came together and stayed together across real differences, went to the heart of thorny issues, and came out at the other end with realistic, durable and robust strategies."
   },
 ];
 
