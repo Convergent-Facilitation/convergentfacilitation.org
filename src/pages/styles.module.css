@@ -20,7 +20,7 @@ textarea {
 
 .section {
   padding-top: 0px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .sectionAlt {
@@ -118,7 +118,7 @@ html[data-theme='dark'] .topBannerTitleText {
 
 .hero {
   background-color: #fdfaf6;
-  padding-bottom: 160px;
+  padding-bottom: 200px;
   
 }
 
