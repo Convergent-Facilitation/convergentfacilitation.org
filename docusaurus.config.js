@@ -111,6 +111,10 @@ const config = {
             position: 'left',
             items: [
               {
+				  label: 'CF Introductory Course Mar 2024',
+                to: '/intro-course-paul-verene-march-2024'
+              },
+              {
 				  label: 'Book: Highest Common Denominator',
                 to: 'https://thefearlessheart.org/store/the-highest-common-denominator/'
               },
