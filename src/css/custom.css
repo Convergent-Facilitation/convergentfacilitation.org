@@ -81,6 +81,8 @@ h2 {
 .special-announcement-section {
  margin-top: 30px;
  background-color: var(--ifm-color-primary);
+ padding-top: 1px;
+ padding-bottom: 1px;
 }
 
 .special-announcement-text {
