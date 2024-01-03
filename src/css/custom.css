@@ -78,6 +78,24 @@ h2 {
   white-space: nowrap;
 }
 
+.special-announcement-section {
+ margin-top: 30px;
+ background-color: var(--ifm-color-primary);
+}
+
+.special-announcement-text {
+ font-size: 30px;
+ text-align: center;
+ color: white;
+ margin: 30px;
+}
+
+.special-announcement-text a {
+ color: white;
+ text-decoration: underline;
+}
+
+
 
 div[class^='announcementBar_'] {
   --site-announcement-bar-stripe-color1: hsl(
