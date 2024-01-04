@@ -44,7 +44,7 @@ function HeroBanner () {
             }}
           />
         </Heading>
-        <p className={styles.heroProjectSubtitle}>Discover breakthrough solutions with a collaborative decision-making process designed to build trust across differences and integrate what's important to everyone.</p>
+        <p className={styles.heroProjectSubtitle}>Discover breakthrough solutions with a collaborative decision-making process designed to build trust across differences and integrate what's important to everyone involved.</p>
         <div className={styles.indexCtas}>
           <Link className="button button--primary" to="/case-studies">
           <InlineIcon icon="entypo:documents"/>
