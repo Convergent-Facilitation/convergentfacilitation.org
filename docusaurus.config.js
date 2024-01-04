@@ -157,7 +157,7 @@ const config = {
               },
               {
                 label: 'Support Our Work',
-                to: '/give'
+                to: '/support-our-work'
               },
               {
                 label: 'CF Intro Course Mar 2024',
