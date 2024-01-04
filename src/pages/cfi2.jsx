@@ -1,7 +1,7 @@
 import React from 'react';
 import RedirectTo from '@site/src/components/Redirect';
 
-// This file is only here to enable the direction of users who are still using old pretty links
+// This file is only here to enable the direction of users who are still using old pretty links from the old wordpress website
 
 
 function MyPage() {

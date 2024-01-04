@@ -5,7 +5,7 @@ import RedirectTo from '@site/src/components/Redirect';
 
 
 function MyPage() {
-  return <RedirectTo to="https://grow.convergentfacilitation.org/resources/recordings-courses-workshops/2022-06-19-framing-for-integration" />;
+  return <RedirectTo to="https://grow.convergentfacilitation.org/resources/recordings-courses-workshops/2022-10-11-oct-cf-intro-turkish-translation-magda-roni-unlisted" />;
 }
 
 export default MyPage;
