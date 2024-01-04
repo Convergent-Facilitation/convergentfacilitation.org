@@ -42,6 +42,14 @@ body {
   background-color: #fdfaf6
 }
 
+a {
+font-weight: bold;
+}
+
+.dropdown__link {
+font-weight: normal;
+}
+
 h1 {
   padding-top: 40px;
   padding-bottom: 20px
