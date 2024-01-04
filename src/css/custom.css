@@ -50,6 +50,17 @@ font-weight: bold;
 font-weight: normal;
 }
 
+.video-stream {
+	padding-bottom: 500px;
+}
+.yt-lite {
+  margin-bottom: 50px; /* Adjust as needed */
+}
+
+.video-stream {
+  html5-main-video: 
+}
+
 a.footer__link-item {
 font-weight: normal;
 }

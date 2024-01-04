@@ -195,10 +195,6 @@ export default function HoVideoContaineVideoContainer (): JSX.Element {
             <QuotesSection quotes={Appreciations} headingText='Apprecation for Convergent Facilitation'/>
           </div>
 
-          <div className={styles.section}>
-            <VideoContainer />
-          </div>
-
         </div>
       </main>
     </Layout>
