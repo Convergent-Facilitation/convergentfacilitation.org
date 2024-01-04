@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Convergent Facilitation',
-  tagline: 'Finding a solution that works for everyone',
+  tagline: 'Finding solutions that work for everyone',
   favicon: 'img/convergentfacilitation_logo.png',
 
 
@@ -28,6 +28,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en']
   },
+
 
   presets: [
     [
@@ -72,6 +73,9 @@ const config = {
         disableSwitch: true,
       },
 
+	  metadata: [
+		  {name: 'description', content: "Discover breakthrough solutions with a collaborative decision-making process designed to build trust across differences and integrate what's important to everyone involved."},
+	  ],
 
       navbar: {
         hideOnScroll: false,
