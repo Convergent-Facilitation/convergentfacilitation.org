@@ -16,7 +16,8 @@ If you want to suggest new content (e.g. your own case study) please sign up to 
   - New facilitators/authors of case studies need to be added to the [facilitators.yml](https://github.com/Convergent-Facilitation/convergentfacilitation.org/blob/main/facilitators.yml) (including a link to their bio file)
 
 - All other pages are located here :point_right: [/src/pages](https://github.com/Convergent-Facilitation/convergentfacilitation.org/tree/main/src/pages)
-- Text for quotes, features and appreciations, including some related images on the landing page are located here :point_right: [/src/data](https://github.com/Convergent-Facilitation/convergentfacilitation.org/tree/main/src/data)
+  - the landing page is created from this file: [/src/pages/index.tsx](https://github.com/Convergent-Facilitation/convergentfacilitation.org/blob/main/src/pages/index.tsx)
+    - Text for quotes, features and appreciations, including some related images on the landing page are located here :point_right: [/src/data](https://github.com/Convergent-Facilitation/convergentfacilitation.org/tree/main/src/data)
 
 
 ## Setup for local development
