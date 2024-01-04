@@ -62,11 +62,11 @@ font-weight: normal;
 }
 
 a.footer__link-item {
-font-weight: normal;
+  font-weight: normal;
 }
 
-.sidebarItemLink_src-theme-BlogSidebar-Desktop-styles-module {
-font-weight: normal;
+[class^="sidebarItemLink_"] {
+  font-weight: normal;
 }
 
 h1 {
