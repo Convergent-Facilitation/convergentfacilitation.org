@@ -96,7 +96,7 @@ function VideoContainer () {
   return (
   <div className="container text--center margin-bottom--x1">
           <Heading as="h1" >
-            <Translate>Get a small taste of the power of Convergent Facilitation from Paul</Translate>
+            <Translate>Listen to Paul's experience of the power of Convergent Facilitation</Translate>
           </Heading>
           <div className="video-container">
             <LiteYouTubeEmbed
@@ -118,7 +118,7 @@ function FeaturesContainer () {
   return (
     <div className="container text--center">
       <Heading as="h1">
-        <Translate>What makes these Experiences possible?</Translate>
+        <Translate>What makes these experiences possible?</Translate>
       </Heading>
       <div className="row margin-bottom--lg">
         {firstRow.map((feature, idx) => (
@@ -193,6 +193,10 @@ export default function HoVideoContaineVideoContainer (): JSX.Element {
 
           <div className={styles.section}>
             <QuotesSection quotes={Appreciations} headingText='Apprecation for Convergent Facilitation'/>
+          </div>
+
+          <div className={styles.section}>
+            <VideoContainer />
           </div>
 
         </div>
