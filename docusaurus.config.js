@@ -98,10 +98,10 @@ const config = {
             label: 'Learn more',
             position: 'left',
             items: [
-//              {
-//				  label: 'Introductory Course March 2024',
-//                to: '/intro-course-paul-verene-march-2024'
-//              },
+              {
+				  label: 'Intro Course March 2024',
+                to: '/intro-course-paul-verene-march-2024'
+              },
               {
                 label: 'Paul on the Omni-Win Project Podcast',
                 href: '/paul-cf-omni-win-project-podcast'

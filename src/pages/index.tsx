@@ -178,11 +178,11 @@ export default function HoVideoContaineVideoContainer (): JSX.Element {
           </div>
 
         <div className={styles.section}>
-{/*
+
           <div className={'special-announcement-section'}>
-             <p className={'special-announcement-text'}>Start becoming a <i>Convergent Facilitator</i> yourself: <a classname={'special-announcement-link'} href="/intro-course-paul-verene-march-2024">pre-register here</a> for our upcoming Convergent Facilitation Introductory Course (4 sessions) in March 2024 with Paul and Verene.</p>
+             <p className={'special-announcement-text'}>Start becoming a <i>Convergent Facilitator</i> yourself: <a classname={'special-announcement-link'} href="/intro-course-paul-verene-march-2024">register here</a> for our upcoming Convergent Facilitation Introductory Course in March 2024 with Paul and Verene.</p>
           </div>
-*/}
+
           <div className={styles.section}>
             <QuotesSection quotes={Quotes} headingText='How people experienced Convergent Facilitation'/>
           </div>
