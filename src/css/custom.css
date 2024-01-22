@@ -9,10 +9,11 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #fbb52a;
-  --ifm-color-secondary: #8ebeb7;
+  --ifm-color-secondary: #83ddd2;
+  --ifm-color-secondary-dark: #4bcebe;
   --ifm-font-family-base: 'Arial', sans-serif; 
   --site-primary-hue-saturation: 35 69%;
-  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-dark: #e19705;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
@@ -35,6 +36,10 @@
 }
 
 .button.button--secondary{
+  color: var(--ifm-color-gray-900);
+}
+
+.button.button--secondary:hover{
   color: var(--ifm-color-gray-900);
 }
 
