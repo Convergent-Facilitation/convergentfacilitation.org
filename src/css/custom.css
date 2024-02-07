@@ -158,3 +158,13 @@ div[class^='announcementBar_'] {
   width: 250px;
   height: 250px;
 }
+
+column-container {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .column-container {
+    display: flex;
+  }
+}
