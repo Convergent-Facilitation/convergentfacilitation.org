@@ -120,6 +120,7 @@ const config = {
               },
             ]
           },
+	  { label: 'Intro Course', to: '/intro-course-paul-verene-march-2024/', position: 'left' },
        //   {
         //    type: 'search',
          //   position: 'right'
