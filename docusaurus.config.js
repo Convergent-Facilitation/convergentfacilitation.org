@@ -120,7 +120,22 @@ const config = {
               },
             ]
           },
-	  { label: 'Intro Course', to: '/intro-course-paul-verene-march-2024/', position: 'left' },
+          {
+            type: 'dropdown',
+            label: 'Intro Course',
+            position: 'left',
+            items: [
+              {
+				  label: 'Course Page',
+                to: '/intro-course-paul-verene-march-2024'
+              },
+              {
+				  label: 'Practice Groups',
+                to: '/intro-course-paul-verene-march-2024-practice-group-sessions#when-are-facilitated-practice-group-sessions-happening'
+              },
+            ]
+          },
+	  //{ label: 'Intro Course', to: '/intro-course-paul-verene-march-2024/', position: 'left' },
        //   {
         //    type: 'search',
          //   position: 'right'
