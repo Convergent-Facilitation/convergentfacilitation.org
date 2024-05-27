@@ -1,6 +1,7 @@
 {
   "name": "cf-outward-facing",
   "version": "0.0.0",
+  "packageManager": "yarn@1.22.19",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -14,9 +15,9 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "3.0.1",
-    "@docusaurus/plugin-ideal-image": "^3.0.1",
-    "@docusaurus/preset-classic": "3.0.1",
+    "@docusaurus/core": "^3.3.2",
+    "@docusaurus/plugin-ideal-image": "^3.3.2",
+    "@docusaurus/preset-classic": "^3.3.2",
     "@iconify/react": "^4.1.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
@@ -26,8 +27,8 @@
     "react-lite-youtube-embed": "^2.4.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.0.1",
-    "@docusaurus/types": "3.0.1"
+    "@docusaurus/module-type-aliases": "^3.3.2",
+    "@docusaurus/types": "^3.3.2"
   },
   "browserslist": {
     "production": [
