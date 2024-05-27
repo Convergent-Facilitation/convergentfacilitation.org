@@ -121,7 +121,14 @@ const config = {
          //   position: 'right'
          // },
           { label: 'Support Our Work', to: '/support-our-work', position: 'right' },
-          { label: 'Contact', to: 'contact', position: 'right' }
+          { label: 'Contact', to: 'contact', position: 'right' },
+		{
+			to: 'https://grow.convergentfacilitation.org', // the location where the button should link
+          label: 'Facilitate',
+          position: 'right',
+          className: 'button button--primary navbar-button', // will target this in CSS
+			//
+        },
 
         ]
       }, footer: {

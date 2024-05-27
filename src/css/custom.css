@@ -46,9 +46,17 @@
 
 .button {
   margin: 10px;
-  height: 37px; 
 }
 
+.navbar-button {
+	color: white; 
+	font-weight: bold;
+	background: #963b56;
+	padding-right:       var(--ifm-navbar-item-padding-horizontal) !important;
+	text-align: center;
+	border-color: #963b56;
+
+}
 body {
   background-color: #fdfaf6
 }
