@@ -194,7 +194,7 @@ Sign up to our <a href="/contact#stay-informed-with-our-cf-in-the-world-newslett
           </div>
 
           <div className={styles.section}>
-            <QuotesSection quotes={Appreciations} headingText='Apprecation for Convergent Facilitation'/>
+            <QuotesSection quotes={Appreciations} headingText='Appreciation for Convergent Facilitation'/>
           </div>
 
           <div className={styles.section}>
