@@ -99,10 +99,6 @@ const config = {
             position: 'left',
             items: [
               {
-				  label: 'Intro Course March 2024',
-                to: '/intro-course-paul-verene-march-2024'
-              },
-              {
                 label: 'Paul on the Omni-Win Project Podcast',
                 href: '/paul-cf-omni-win-project-podcast'
               },
@@ -120,22 +116,6 @@ const config = {
               },
             ]
           },
-          {
-            type: 'dropdown',
-            label: 'Intro Course',
-            position: 'left',
-            items: [
-              {
-				  label: 'Course Page',
-                to: '/intro-course-paul-verene-march-2024'
-              },
-              {
-				  label: 'Practice Groups',
-                to: '/intro-course-paul-verene-march-2024-practice-group-sessions#when-are-facilitated-practice-group-sessions-happening'
-              },
-            ]
-          },
-	  //{ label: 'Intro Course', to: '/intro-course-paul-verene-march-2024/', position: 'left' },
        //   {
         //    type: 'search',
          //   position: 'right'
@@ -186,10 +166,6 @@ const config = {
               {
                 label: 'Support Our Work',
                 to: '/support-our-work'
-              },
-              {
-                label: 'CF Intro Course Mar 2024',
-				to: '/intro-course-paul-verene-march-2024'
               },
               {
                 label: 'CF Learning Community (grow)',
