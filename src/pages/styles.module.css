@@ -133,7 +133,9 @@ html[data-theme='dark'] .topBannerTitleText {
   color: #000000;
   font-size: 60px;
   margin: 0;
+  letter-spacing: 5px;
 }
+
 
 .heroProjectSubtitle {
   color: #5f5f5f;

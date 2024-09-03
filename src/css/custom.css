@@ -49,6 +49,18 @@
   height: 37px; 
 }
 
+.navbar__title {
+  display: inline-block; /* Ensure the element respects width */
+  width: 13ch; /* Adjust '10ch' to your desired character count */
+  white-space: normal; /* Allow text to wrap */
+  line-height: 1;
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #404040;
+  font-family: 'Arial';
+  letter-spacing: 2px;
+}
+
 body {
   background-color: #fdfaf6
 }
@@ -82,7 +94,8 @@ a.footer__link-item {
 
 h1 {
   padding-top: 40px;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+  letter-spacing: 3px;
 }
 
 h2 {
